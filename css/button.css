@@ -37,12 +37,28 @@ body {
 
 .fied-group input {
 	padding: 16px;
-	border-radius: 8px;
-	width: 280px;
+	border-radius: 8px 0px 0px 8px;
+	width: 250px;
 	border: 2px solid #16841C;
 	background-image: url('../images/envolop.svg');
 	background-repeat: no-repeat;
 	background-position: 5px center;
-	padding-left: 40px;
+	padding-left: 45px;
 	background-size: 28px;
+	background-color:  #FAE6F0;
+}
+
+.form {
+	display: flex;
+	align-items: flex-end;
+}
+
+.form-button {
+	padding: 16px ;
+	padding-top: 19px;
+	display: inline-block;
+	border: none;
+	border-radius: 0px 8px 8px 0px;
+	background-color: #9A4EAE;
+	color: white;
 }
