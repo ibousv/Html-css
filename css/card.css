@@ -1,0 +1,14 @@
+.card {
+	width: 320px;
+	border: 2px solid black;
+}
+
+.card img {
+ 	aspect-ratio: 16/9;
+ 	object-fit: cover;
+}
+
+.card img:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
