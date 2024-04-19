@@ -35,8 +35,14 @@ body {
 	font-size: 12px;
 }
 
-
 .fied-group input {
 	padding: 16px;
-	border-radius: 5px;
+	border-radius: 8px;
+	width: 280px;
+	border: 2px solid #16841C;
+	background-image: url('../images/envolop.svg');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 40px;
+	background-size: 28px;
 }
