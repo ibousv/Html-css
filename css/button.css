@@ -30,8 +30,13 @@ body {
 
 .fied-group label {
 	display: block;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-size: 12px;
 }
 
+
 .fied-group input {
-	display: block;
+	padding: 16px;
+	border-radius: 5px;
 }
