@@ -1,0 +1,24 @@
+.button {
+	padding: 24px 36px;
+	border-radius: 8px;
+	color: white;
+	text-decoration: none;
+}
+
+.green {
+	background-color: green ;
+}
+
+.red {
+	background-color: red ;
+}
+
+.yellow {
+	background-color: yellow ;
+}
+
+.gray {
+	background-color: gray ;	
+	display: block;
+	text-align: center;
+}
