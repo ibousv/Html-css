@@ -1,14 +1,26 @@
 .card {
-	width: 320px;
-	border: 2px solid black;
+	background-color: yellow;
+	width: 350px;
+	border: 2px solid red;
+	border-radius: 20px;
+	overflow: hidden;
 }
 
-.card img {
- 	aspect-ratio: 16/9;
- 	object-fit: cover;
+.card > img {
+	transform: rotate(360deg);
+	transition: 0.8s;
+	aspect-ratio: 1/1;
+	object-fit: contain;
+	width: 350px;
+	position: relative;
 }
 
 .card img:hover {
-	transform: rotate(360deg);
+	transform: scale(0.5);
 	transition: 0.5s;
 }
+
+.caption {
+	padding: 20px;
+}
+
